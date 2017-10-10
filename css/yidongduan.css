@@ -1,0 +1,557 @@
+/*
+* @Author: DELL
+* @Date:   2017-10-10 09:56:49
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-10-10 19:26:39
+*/
+/* 积分开始 */
+@font-face {
+  font-family: 'iconfont';  /* project id 436583 */
+  src: url('http://at.alicdn.com/t/font_436583_3xfn82y76u2chaor.eot');
+  src: url('http://at.alicdn.com/t/font_436583_3xfn82y76u2chaor.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_436583_3xfn82y76u2chaor.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_436583_3xfn82y76u2chaor.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_436583_3xfn82y76u2chaor.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+	float: left;
+}
+/* top开始 */
+.top{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #f32d2d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.top-icon{
+	width: 0.4rem;
+	height: 0.34rem;
+	/* background-color: green; */
+	margin-top: 0.22rem;
+	margin-left: 0.41rem;
+	display: block;
+	/* font-size: 0.34em; */
+	color: white;
+	float: left;
+}
+.top-icon i{
+	font-size: 0.34rem;
+}
+.sousuo{
+	width: 3.98rem;
+	height: 0.66rem;
+	/* background-color: white; */
+	margin-top: 0.1rem;
+	margin-left:0.41rem;
+	float: left;
+	position:relative;
+}
+.sousuo1{
+	width: 3.98rem;
+	height: 0.66rem;
+	background-color: white;
+	float: left;
+	border: none;
+	border-radius:0.05rem;
+}
+.sousuo2{
+	width: 0.84rem;
+	height: 0.66rem;
+	/* background-color: green; */
+	position:absolute;
+	right: 0;
+	top: 0;
+	float: left;
+	border-radius:0.05rem;
+	
+}
+.sousuo2 i{
+	font-size: 0.32rem;
+	margin-top: 0.15rem;
+	margin-left: 0.26rem;
+	color: #a28d8d;
+}
+.top-icon3{
+	width: 0.46rem;
+	height: 0.22rem;
+	/* background-color: green; */
+	margin-left: 0.36rem;
+	margin-top: 0.33rem;
+	float: left;
+	font-size: 0.22rem;
+	color: white;
+}
+/* top结束 */
+/* 滚动开始 */
+.gundong{
+	width: 100%;
+	height: 2.22rem;
+	background-color: red;
+	margin-top: 0.88rem;
+	position: relative;
+}
+.gundong-dian{
+	width: 1.4rem;
+	height: 0.14rem;
+	/* background-color: green; */
+	position: absolute;
+	left: 2.5rem;
+	top: 1.92rem;
+}
+.gundong-dian li{
+	width: 0.1rem;
+	height: 0.1rem;
+	background-color: #79797b;
+	margin-right: 0.04rem;
+	float: left;
+	border: 0.02rem solid #79797b;
+	border-radius: 50%;
+}
+.gundong-dian li:last-child{
+	margin-right: 0;
+}
+/* 滚动结束 */
+.jifen{
+	width: 100%;
+	height: 2.7rem;
+	/* background-color: red; */
+}
+.jifen-nei{
+	width: 100%;
+	/* background-color: green; */
+	overflow: hidden;
+}
+.jifen-nei li{
+	width: 20%;
+	height: 1.35rem;
+	/* background-color: yellow; */
+	float: left;
+
+}
+.jifen-img img{
+	width: 0.72rem;
+	height: 0.72rem;
+	/* background-color: red; */
+	margin-top: 0.08rem;
+	margin-left: 0.28rem;
+	display: block;
+	/* overflow: hidden; */
+}
+.jifen-fenzi{
+	/* width: 0.22rem;
+	height: 0.22em; */
+	margin-top: 0.10rem;
+	text-align: center;
+	font-size: 0.22rem;
+	display: block;
+	color: black;
+}
+/* 积分结束  */
+.lunbo{
+	width: 100%;
+	height: 2.18rem;
+	background-color: #f0f0f0;
+	overflow: hidden;
+}
+.lunbo-img{
+	width: 3.45rem;
+	height: 2.09rem;
+	/* background-color: green; */
+	margin-left: 0.06rem;
+	margin-top: 0.09rem;
+}
+/* 必抢开始 */
+.biqiang{
+	width: 100%;
+	height: 5.71rem;
+	/* background-color: green; */
+}
+.biqiang-top1{
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color: #ff2e2e;
+	margin-top: 0.32rem;
+	margin-left: 1.88rem;
+	float: left;
+}
+.biqiang-top2{
+	width: 0.90rem;
+	height: 0.3rem;
+	/* background-color: green; */
+	float: left;
+	margin-top: 0.16rem;
+	margin-left: 0.3rem;
+	font-size: 0.3rem;
+	color: #548ce6;
+}
+.biqiang-icon{
+	width: 0.24rem;
+	height: 0.3rem;
+	/* background-color: blue; */
+	float: left;
+}
+.biqiang-icon i{
+	font-size: 0.3rem;
+	color: #ff2e2e;
+	float: left;
+}
+.biqiang-word{
+	width: 0.56rem;
+	height: 0.26rem;
+	/* background-color: blue; */
+	margin-left: 0.1rem;
+	float: left;
+	font-size: 0.26rem;
+	color: #ff2e2e;
+}
+.biqiang-top3{
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color: #ff2e2e;
+	margin-top: 0.32rem;
+	margin-left: 0.3rem;
+	float: left;
+}
+.biqiang-shang{
+	width: 100%;
+	height: 2.54rem;
+	border-bottom: 0.01rem solid #f0f0f0;
+}
+.biqiang-shang:last-child{
+	border: 0;
+}
+.biqiang-bottom{
+	width: calc(100% / 4);
+	height: 2.54rem;
+	/* background-color: blue; */
+	overflow: hidden;
+	float: left;
+}
+.biqiang-bottom:last-child{
+	border-left:0.01rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+.biqiang-bottom1{
+	width: 1.02rem;
+	height: 0.24rem;
+	/* background-color: orange; */
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.10rem;
+	font-size: 0.24rem;
+	color: black;
+}
+.biqiang-bottom-img{
+	width: 100%;
+	height: 1.74rem;
+	/* background-color: pink; */
+	display: block;
+	margin-top: 0.04rem;
+}
+.biqiang-bottom2{
+	width: 1.18rem;
+	height: 0.18rem;
+	/* background-color: pink; */
+	margin-left: 0.22rem;
+}
+.biqiang-bottom3{
+	width: 0.46rem;
+	height: 0.18em;
+	/* background-color: yellow; */
+	display: block;
+	float: left;
+	font-size: 0.18rem;
+	color: black;
+}
+.biqiang-bottom4{
+	width: 0.68rem;
+	height: 0.18rem;
+	/* background-color: yellow; */
+	float: left;
+	margin-left:0.04rem; 
+	text-decoration: line-through;
+	font-size: 0.18rem;
+	color: #9b9b9b;
+}
+/* 必抢结束 */
+/* 酷玩开始 */
+.kuwan{
+	width: 100%;
+	height: 3.20rem;
+	background-color: red;
+}
+.kuwan-top{
+	width: 100%;
+	height: 0.62rem;
+	background-color: #f0f0f0;
+	overflow: hidden;
+}
+.kuwan-top1{
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color: #becfec;
+	margin-top: 0.32rem;
+	margin-left: 1.6rem;
+	float: left;
+}
+.kuwan-top2{
+	width: 1.44rem;
+	height: 0.3rem;
+	/* background-color: green; */
+	float: left;
+	margin-top: 0.16rem;
+	margin-left: 0.2rem;
+	font-size: 0.3rem;
+	color: #548ce6;
+}
+.kuwan-icon{
+	width: 0.24rem;
+	height: 0.3rem;
+	/* background-color: blue; */
+	float: left;
+}
+.kuwan-icon i{
+	font-size: 0.3rem;
+	color: #548ce6;
+	float: left;
+}
+.kuwan-word{
+	width: 1.1rem;
+	height: 0.26rem;
+	/* background-color: blue; */
+	/* margin-top: 0.04rem; */
+	margin-left: 0.1rem;
+	float: left;
+	font-size: 0.26rem;
+	color: #548ce6;
+}
+.kuwan-top3{
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color: #548ce6;
+	margin-top: 0.32rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.kuwan-bottom{
+	width: 6.4rem;
+	height: 2.6rem;
+	/* background-color: green; */
+}
+.kuwan-bottom-img{
+	width: calc(100% / 3);
+	height: 2.6rem;
+	/* background-color: blue; */
+	float: left;
+}
+/* 酷玩结束 */
+/* 特卖开始 */
+.temai{
+	width: 6.4rem;
+	height: 2.5rem;
+	background-color: #f0f0f0;
+}
+.temai-top1{
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color: #ffcc99;
+	margin-top: 0.32rem;
+	margin-left: 1.6rem;
+	float: left;
+}
+.temai-icon{
+	width: 0.24rem;
+	height: 0.3rem;
+	/* background-color: blue; */
+	float: left;
+}
+.temai-icon i{
+	font-size: 0.3rem;
+	color:#ffcc99;
+	float: left;
+}
+.temai-word{
+	width: 1.1rem;
+	height: 0.26rem;
+	/* background-color: blue; */
+	/* margin-top: 0.04rem; */
+	margin-left: 0.1rem;
+	float: left;
+	font-size: 0.26rem;
+	color: #ffcc99;
+}
+.temai-top3{
+	width: 0.68rem;
+	height: 0.02rem;
+	background-color: #ffcc99;
+	margin-top: 0.32rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.temai-bottom{
+	width: 100%;
+	height: 1.88rem;
+	background-color: white;
+}
+.temai-bottom-img{
+	width: calc(100% / 2);
+	height: 1.88rem;
+	background-color: green;
+	border-right: 0.02rem solid #f0f0f0;
+	box-sizing: border-box;
+	float: left;
+}
+/* 特卖结束 */
+/* 猜你喜欢开始 */
+.xihuan{
+	width: 100%;
+	height: 5.42rem;
+	background-color: #f0f0f0;
+}
+.xihuan-top{
+	width: 100%;
+	height: 0.88rem;
+	/* background-color: red; */
+	overflow: hidden;
+}
+.xihuan-top1{
+	width: 0.28rem;
+	height: 0.03rem;
+	background-color: #999;
+	margin-top: 0.45rem;
+	margin-left: 2.24rem;
+	float: left;
+}
+.xihuan-top-word{
+	width: 0.84rem;
+	height: 0.26rem;
+	/* background-color: green; */
+	margin-left: 0.1rem;
+	margin-top: 0.31rem;
+	float: left;
+	font-size: 0.2rem;
+	color: #999;
+}
+.xihuan-top2{
+	width: 0.28rem;
+	height: 0.03rem;
+	background-color: #999;
+	margin-top: 0.45rem;
+	margin-left: 0.1rem;
+	float: left;
+}
+.xihuan-bottom{
+	width: 100%;
+	height: 4.54rem;
+	background-color: #f0f0f0;
+}
+.xihuan-bottom1{
+	width: 3.18rem;
+	height: 4.54rem;
+	background-color: white; 
+	float: left;
+	border-bottom: 0.01rem solid #f0f0f0;
+}
+.xihuan-bottom1:last-child{
+	border-bottom: 0;
+}
+.xihuan-bottom2{
+	width: 3.18rem;
+	height: 4.54rem;
+	background-color: white; 
+	float: right;
+	border-bottom: 0.01rem solid #f0f0f0;
+}
+.xihuan-bottom2:last-child{
+	border-bottom: 0;
+}
+.xihuan-bottom1-img{
+	width: 100%;
+	height: 3.17rem;
+	/* background-color: red; */
+	display: block;
+}
+.xihuan-bottom1-word{
+	width: 2.78rem;
+	height: 0.56rem;
+	/* background-color: red; */
+	margin-top: 0.08rem;
+	margin-left: 0.17rem;
+	display: block;
+	font-size: 0.26rem;
+	color: black;
+}
+.xihuan-bottom1-word1{
+	width: 0.9rem;
+	height: 0.24rem;
+	/* background-color: red; */
+	margin-top: 0.3rem;
+	margin-left: 0.17rem;
+	font-size: 0.24rem;
+	color: #dd2727;
+}
+/* 猜你喜欢结束 */
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height: 2.92rem;
+	background-color: #eee;
+}
+.dibu-top{
+	width: 100%;
+	height: 0.86rem;
+	background-color: #eee;
+	border-bottom: 0.04rem solid black;
+	overflow: hidden;
+}
+.dibu-top-img img{
+	width: 0.6rem;
+	height: 0.42rem;
+	/* background-color: red; */
+	margin-top: 0.26rem;
+	margin-left: 2.9rem;
+	float: left;
+}
+.dibu-top-word{
+	width: 5.0rem;
+	height: 0.24rem;
+	/* background-color: red; */
+	margin-top: 0.46rem;
+	margin-left: 0.8rem;
+}
+.dibu-top-word li{
+	font-size: 0.2rem;
+	float: left;
+	padding: 0 0.36rem;
+	border-right: 0.01rem solid #b29999;
+	
+}
+.dibu-top-word li:first-child{
+	padding-left: 0;
+}
+.dibu-top-word li a{
+	color: #b29999;
+}
+.dibu-top-word li:last-child{
+	border: 0;
+	padding-right: 0;
+}
+.dibu-top-word2{
+	width: 3.6rem;
+	height: 0.23rem;
+	/* background-color: red; */
+	margin-top: 0.64rem;
+	margin-left: 1.37rem;
+	color: #b29999;
+	font-size: 0.23rem;
+}
+.dibu-top-word2 a{
+	font-size: 0.23rem;
+	color: #b29999;
+}
+/* 底部结束 */
